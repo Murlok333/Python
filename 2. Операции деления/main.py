@@ -4,5 +4,5 @@ n = int(input())
 print(n // 10 + n % 10)
 
 # Сумма цифр трёхзначного числа
-k=int(input())
-print(k //100 + k % 10 + (k % 100)//10)
+k = int(input())
+print(k // 100 + k % 10 + (k % 100) // 10)
